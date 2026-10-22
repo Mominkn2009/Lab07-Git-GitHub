@@ -1,5 +1,4 @@
-# Number Guessing Game - Main Version
-
+# Number Guessing Game - Final Version
 
 
 \## Purpose
