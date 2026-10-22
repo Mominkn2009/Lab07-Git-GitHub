@@ -1,3 +1,4 @@
+# Added Extreme difficulty mode feature
 import random
 
 
