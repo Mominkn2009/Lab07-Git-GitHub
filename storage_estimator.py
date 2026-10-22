@@ -2,12 +2,16 @@ import random
 
 
 def get_max_number():
-    print("Select Difficulty: 1. Easy (1-20)  2. Medium (1-50)  3. Hard (1-100)")
-    choice = input("Enter choice (1-3): ").strip()
+    print(
+        "Select Difficulty: 1. Easy (1-20)  2. Medium (1-50)  3. Hard (1-100)  4. Extreme (1-500)"
+    )
+    choice = input("Enter choice (1-4): ").strip()
     if choice == "1":
         return 20
     elif choice == "3":
         return 100
+    elif choice == "4":
+        return 500
     return 50
 
 
